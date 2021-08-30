@@ -1,0 +1,163 @@
+body{
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;;
+    text-align: center;
+}
+
+h2, h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.nav-bar {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 69px;
+    border-bottom: seashell 1px solid;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar img {
+    flex: 1;
+    height: 50px;
+}
+
+.nav-bar .links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    color: seashell;
+}
+.nav-bar .links a{
+    color: seashell;
+    margin-left: 20px;
+}
+.nav-bar .links a:visited{
+    color: seashell;
+}
+
+
+
+
+.header{
+    height: 700px;
+    position: relative;
+}
+
+.header .image {
+    height: 700px
+}
+
+.header img {
+    height: 100%;
+    width: 1200px;
+}
+
+.header .text {
+    position: absolute;
+    top: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    left: 0;
+    right: 0;
+}
+.header .text * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.main {
+    width: 1000px;
+}
+
+.main .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main .image {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.main img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.shops {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shops .title {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: calc(-50px - 15px);
+    height: 50px;
+}
+
+.shops .shop-list {
+    display: flex;
+    position: relative;
+}
+
+
+.shops .shop {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .copyright{
+    text-align: left;
+    font-size: 1vw;
+}
