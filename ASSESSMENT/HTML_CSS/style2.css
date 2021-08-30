@@ -1,0 +1,12 @@
+
+.navigationbar{
+    transition: 0.5s;
+}
+.navigationbar a:hover{
+    font-size: 16px;
+    transition: 0.5s;
+}
+.navigationbar a{
+    font-size: 12px;
+    transition: 0.5s;
+}
