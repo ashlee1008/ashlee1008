@@ -16,7 +16,9 @@ const Item = ({ id, note, descrip, date, img, deleteData, submittingStatus }) =>
         <p>DESCRIPTION:{descrip}</p>
         <p>DUE DATE:{date}</p>
         <div>
-          ASSIGN TO<img src={png} alt="abc"></img><img src={png} alt="abc"></img><img src={png} alt="abc"></img>
+          <img src={png} alt="abc"></img>
+          <img src={png} alt="abc"></img>
+          <img src={png} alt="abc"></img>
         </div>
       </div>
       <button onClick={deleteItem} className="remove">DELETE</button>

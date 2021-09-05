@@ -22,7 +22,6 @@ const Edit = ({ add, submittingStatus }) => {
     setImg(e.target.value);
   }
 
-  // TODO del
   console.log(note, descrip, date, img);
 
   function addItem() {
@@ -43,13 +42,13 @@ const Edit = ({ add, submittingStatus }) => {
 
   return (
     <div>
-      <h1>PROJECT</h1>
+      <form id="form" className="form-show">
       <p>PROJECT NAME</p>
-      <input type="text" value={note} onChange={noteChange} />
+      <input type="text" value={note} onChange={noteChange} required />
       <p>DESCRIPTION</p>
-      <input type="text" value={descrip} onChange={DescripChange} />
+      <input type="text" value={descrip} onChange={DescripChange} required />
       <p>DUE DATE</p>
-      <input type="date" value={date} onChange={dateChange} />
+      <input type="date" value={date} onChange={dateChange} required />
       <p>ASSIGNED TO</p>
       <div className="ASSIGNED-TO">
       <img src={png} value={img} onChange={imgChange} />
@@ -59,6 +58,7 @@ const Edit = ({ add, submittingStatus }) => {
       <button onClick={addItem} className="Confirm">
         CONFIRM
       </button>
+      </form>
     </div>
   );
 };
